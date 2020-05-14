@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 3005003363504452402}
   m_Layer: 9
   m_Name: CharacterController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 3005003363504452365}
-  characterSpeed: 10
+  characterSpeed: 5
   JumpHeight: 1.5
   GroundCheck: {fileID: 3005003364303868560}
   groundMask:
