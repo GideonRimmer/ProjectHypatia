@@ -18,8 +18,8 @@ TagManager:
   - Player
   - PostProcessing
   - SetDressing
-  - 
-  - 
+  - NotClickableInEditor
+  - Ground
   - Vehicles
   - Navmesh
   - Environment
