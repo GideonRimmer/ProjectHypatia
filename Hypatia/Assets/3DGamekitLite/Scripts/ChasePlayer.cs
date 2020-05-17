@@ -31,6 +31,11 @@ public class ChasePlayer : MonoBehaviour
         FindLeaderInRadius();
     }
 
+    protected void LateUpdate()
+    {
+        transform.localEulerAngles = new Vector3(0, transform.localEulerAngles.y, 0);
+    }
+
     void FindLeaderInRadius()
     {
         // Set the default distance to infinity, so we can revert to a value.
@@ -77,6 +82,7 @@ public class ChasePlayer : MonoBehaviour
             {
                 isMovingTowards = false;
                 //animator.SetBool("IsCrawling", false);
+                rigidbody.freezeRotation = true;
             }
         }
     }
