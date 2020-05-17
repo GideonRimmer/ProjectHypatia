@@ -141,10 +141,10 @@ Animator:
   m_GameObject: {fileID: 962396006346332741}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c9a6a92927b225840b9398c9c5613e3f, type: 3}
-  m_Controller: {fileID: 9100000, guid: a7bb6bb3fea28114a8105bd4fd0808cb, type: 2}
+  m_Controller: {fileID: 9100000, guid: f71eeaea8dbe9a642a7898e0a91a452f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -161,7 +161,7 @@ Rigidbody:
   m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
@@ -173,13 +173,13 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962396006346332741}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 163d4f82ba983ba47964c2db7beca1a4, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2.7568994
+  m_Height: 3.1879373
   m_Direction: 1
-  m_Center: {x: 0, y: 1.9899008, z: 0}
+  m_Center: {x: 0, y: 1.7743819, z: 0}
 --- !u!114 &2225260816290759145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 10
-  moveTowardsSpeed: 5
+  moveTowardsSpeed: 3
   isMovingTowards: 0
   distanceToClosestLeader: 0
   searchLeaderRadius: 250
