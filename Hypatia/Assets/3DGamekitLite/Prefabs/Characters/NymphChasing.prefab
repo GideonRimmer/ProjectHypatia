@@ -192,12 +192,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0893afb881e63ed4783a5a7bd20e2a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 10
+  rotateSpeed: 3
   moveTowardsSpeed: 3
   isMovingTowards: 0
   distanceToClosestLeader: 0
-  searchLeaderRadius: 250
-  minDistanceFromLeader: 10
+  searchLeaderRadius: 200
+  minDistanceFromLeader: 20
 --- !u!1 &964518908664884768
 GameObject:
   m_ObjectHideFlags: 0
