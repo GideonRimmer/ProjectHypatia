@@ -30,6 +30,11 @@ public class ChasePlayer : MonoBehaviour
     {
         FindLeaderInRadius();
     }
+    protected void LateUpdate()
+    {
+        transform.localEulerAngles = new Vector3(0, transform.localEulerAngles.y, 0);
+    }
+
 
     void FindLeaderInRadius()
     {
@@ -56,11 +61,11 @@ public class ChasePlayer : MonoBehaviour
 
             if (closestTarget != null && distanceToClosestLeader > minDistanceFromLeader && distanceToClosestLeader <= searchLeaderRadius)
             {
-                //animator.SetBool("IsCrawling", true);
-                //animator.speed = moveAnimatorSpeed;
                 Debug.DrawLine(this.transform.position, closestTarget.transform.position);
 
                 isMovingTowards = true;
+                animator.SetBool("IsWalking", true);
+
                 // Automatically move towards the target.
                 transform.position = Vector3.MoveTowards(transform.position, closestTarget.transform.position, moveTowardsSpeed * Time.deltaTime);
 
@@ -73,10 +78,12 @@ public class ChasePlayer : MonoBehaviour
                 // Move position a step towards to the target.
                 transform.rotation = Quaternion.LookRotation(newDirection);
             }
-            else if (closestTarget != null && distanceToClosestLeader <= minDistanceFromLeader)
+            //else if (closestTarget != null && distanceToClosestLeader <= minDistanceFromLeader)
+            else if (closestTarget != null && (distanceToClosestLeader <= minDistanceFromLeader || distanceToClosestLeader > searchLeaderRadius))
             {
                 isMovingTowards = false;
-                //animator.SetBool("IsCrawling", false);
+                animator.SetBool("IsWalking", false);
+                rigidbody.freezeRotation = true;
             }
         }
     }
