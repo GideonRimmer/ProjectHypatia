@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ExampleScene.unity
-    guid: 12dd7bb27c47ea1458c8d4ecd98af2cc
+    path: Assets/Scenes/StartMenu.unity
+    guid: d289cbb2e308f1f4b9634386d4f5ba0e
   - enabled: 1
-    path: Assets/newScene.unity
-    guid: ae827b0911ccdd146ac15e245084bd91
+    path: Assets/Scenes/CreditsMenu.unity
+    guid: 99326163d3c7ae8408ef28122fef4fbf
+  - enabled: 1
+    path: Assets/Scenes/Greyboxing.unity
+    guid: c3deb46de04f7fa4ea0c7bddf17775c1
   m_configObjects: {}
