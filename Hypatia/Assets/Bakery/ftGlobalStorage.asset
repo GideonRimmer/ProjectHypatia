@@ -446,7 +446,35 @@ MonoBehaviour:
   - Assets/Models/Building modules/Wooden ledge corner 2x2.fbx
   - Assets/Models/Building modules/6x4/Stucco top 6x4x4.fbx
   - Assets/Models/Building modules/6x4/Stucco bottom Corner 6x3x4.fbx
-  uvOverlapAssetList: 00000000ffffffff01010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000000000000101000001010000010100000101000001010000
+  - Assets/Models/Building modules/Stucco_roof_2x4.fbx
+  - Assets/Meshes/Bushes/Bush 03/Meshes/Bush 03.obj
+  - Assets/Meshes/Bushes/Bush 02/Meshes/Bush 02.obj
+  - Assets/Meshes/Bushes/Bush 04/Meshes/Bush 04.obj
+  - Assets/Meshes/Bushes/Bush 05/Meshes/Bush 05.obj
+  - Assets/DreamForestTree/Shaft/shaft.FBX
+  - Assets/Models/Building modules/4x4/Stucco/Stucco bottom 4x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco/Stucco bottom 8x3x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco/Stucco top 4x4x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco/Stucco top Corner 8x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco/Stucco bottom 8x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco/Stucco top 4x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco/Stucco bottom corner 8x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco/Stucco bottom corner 4x3x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco/Stucco top corner 8x4x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco/Stucco top corner 4x4x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco/Stucco_bottom_6x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco/Stucco bottom 4x3x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco/Stucco bottom corner 4x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco/Stucco top 8x4x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco/Stucco_bottom_Corner_6x3x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco/Stucco top Corner 6x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco/Stucco bottom corner 8x3x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco/Stucco top 6x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco/Stucco_bottom_Corner_6x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco/Stucco top corner 4x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco/Stucco_bottom_6x3x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco/Stucco top 8x4.fbx
+  uvOverlapAssetList: 00000000ffffffff0101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000000000000010100000101000001010000010100000101000000000000010100000101000001010000010100000000000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000
   xatlasWarningShown: 0
   checkerPreviewOn: 0
   rtSceneViewPreviewOn: 0
