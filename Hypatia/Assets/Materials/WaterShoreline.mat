@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -56,15 +56,15 @@ Material:
     - _FoamEdgeDistance: 0.24
     - _FoamEdgeDrawDistance: 0.75
     - _FoamPower: 0.508
-    - _MaxTesselation: 180
+    - _MaxTesselation: 400
     - _NormalPanSpeed: 0.007
     - _NormalStrength: 1
     - _NormalTile: -0.9
     - _RefractAmount: 0.1
     - _SeaFoamTile: 0
     - _Smoothness: 0.7
-    - _Tesselation: 80
-    - _WaveHeight: 0.5
+    - _Tesselation: 20
+    - _WaveHeight: 0.4
     - _WaveSpeed: 0.2
     - _WaveTiling: 0.03
     - __dirty: 0
@@ -72,4 +72,4 @@ Material:
     - _BrighterWater: {r: 0.12055002, g: 0.5943396, b: 0.58944947, a: 1}
     - _DarkerWater: {r: 0.038180865, g: 0.5944261, b: 0.6226415, a: 0}
     - _WaveDirection: {r: 1, g: 0, b: 0, a: 0}
-    - _WaveStretch: {r: 4.16, g: 0.71, b: 0, a: 0}
+    - _WaveStretch: {r: 2.84, g: 0.71, b: 0, a: 0}
