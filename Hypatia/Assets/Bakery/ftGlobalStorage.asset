@@ -400,7 +400,53 @@ MonoBehaviour:
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
-  uvOverlapAssetList: 00000000ffffffff
+  - Assets/Models/Building modules/4x4/Stucco bottom 4x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco bottom 8x3x4.fbx
+  - Assets/Models/Building modules/4x4/Gaudi bottom 4x5.fbx
+  - Assets/Models/Building modules/4x4/Stucco top 4x4x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco top Corner 8x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco bottom 6x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco bottom 8x4.fbx
+  - Assets/Models/Building modules/6x4/Gaudi roof 6x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco top 4x4.fbx
+  - Assets/Models/Building modules/8x4/Gaudi bottom 8x4.fbx
+  - Assets/Models/Building modules/8x4/Gaudi roof2 8x4.fbx
+  - Assets/Models/Building modules/8x4/Gaudi roof 8x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco bottom corner 8x4.fbx
+  - Assets/Models/Building modules/8x4/Gaudi top 8x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco bottom corner 4x3x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco top corner 8x4x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco top corner 4x4x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco bottom 4x3x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco bottom corner 4x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco top 8x4x4.fbx
+  - Assets/Models/Building modules/8x4/Gaudi top 8x4x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco top Corner 6x4.fbx
+  - Assets/Models/Building modules/6x4/Gaudi top 6x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco bottom corner 8x3x4.fbx
+  - Assets/Models/Building modules/4x4/Gaudi top 4x4.fbx
+  - Assets/Models/Building modules/6x4/Gaudi roof2 6x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco bottom Corner 6x4.fbx
+  - Assets/Models/Building modules/4x4/Gaudi bottom 4x4.fbx
+  - Assets/Models/Building modules/4x4/Gaudi roof2 4x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco top 6x4.fbx
+  - Assets/Models/Building modules/4x4/Gaudi roof 4x4.fbx
+  - Assets/Models/Building modules/4x4/Gaudi top 4x4x4.fbx
+  - Assets/Models/Building modules/4x4/Stucco top corner 4x4.fbx
+  - Assets/Models/Building modules/6x4/Gaudi bottom 6x4.fbx
+  - Assets/Models/Building modules/8x4/Stucco top 8x4.fbx
+  - Assets/Models/Building modules/props/tower_001.fbx
+  - Assets/Models/Building modules/6x4/Gaudi top 6x4x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco top Corner 6x4x4.fbx
+  - Assets/Models/Building modules/props/archway_001.fbx
+  - Assets/Models/Building modules/Wooden ledge 2.fbx
+  - Assets/Models/Building modules/Stucco roof 2x4.fbx
+  - Assets/Models/Building modules/props/stucco_window_001.fbx
+  - Assets/Models/Building modules/6x4/Stucco bottom 6x3x4.fbx
+  - Assets/Models/Building modules/Wooden ledge corner 2x2.fbx
+  - Assets/Models/Building modules/6x4/Stucco top 6x4x4.fbx
+  - Assets/Models/Building modules/6x4/Stucco bottom Corner 6x3x4.fbx
+  uvOverlapAssetList: 00000000ffffffff01010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000000000000101000001010000010100000101000001010000
   xatlasWarningShown: 0
   checkerPreviewOn: 0
   rtSceneViewPreviewOn: 0
