@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 2225260816290759145}
   m_Layer: 23
   m_Name: NymphChasing
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   isMovingTowards: 0
   distanceToClosestLeader: 0
   searchLeaderRadius: 200
-  minDistanceFromLeader: 20
+  minDistanceFromLeader: 1.5
 --- !u!1 &964518908664884768
 GameObject:
   m_ObjectHideFlags: 0
