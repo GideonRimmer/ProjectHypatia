@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3421131920333719053}
   m_Layer: 0
-  m_Name: GaudiBuilding4x4_02
+  m_Name: GaudiBuilding4x4_Roof1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,6 +95,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: abd434aed3aa79e4f9d0881cd60adb48,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: adafbd1b544a82942af8d66afd2d0962, type: 2}
+    - target: {fileID: -1504981713932161579, guid: abd434aed3aa79e4f9d0881cd60adb48,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3e5cccfffa5b6964da3819ab5854745d, type: 2}
     - target: {fileID: -927199367670048503, guid: abd434aed3aa79e4f9d0881cd60adb48,
         type: 3}
       propertyPath: m_Name
@@ -170,6 +180,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6c5bda8e04aa9234388440f1633e6fa3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: adafbd1b544a82942af8d66afd2d0962, type: 2}
+    - target: {fileID: -1504981713932161579, guid: 6c5bda8e04aa9234388440f1633e6fa3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3e5cccfffa5b6964da3819ab5854745d, type: 2}
     - target: {fileID: -927199367670048503, guid: 6c5bda8e04aa9234388440f1633e6fa3,
         type: 3}
       propertyPath: m_Name
@@ -245,6 +265,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: fdea6bb6e0805234fadfd2b5304431c6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 78a89336e8db3c7439f764dad4cfce4b, type: 2}
+    - target: {fileID: -1504981713932161579, guid: fdea6bb6e0805234fadfd2b5304431c6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: adafbd1b544a82942af8d66afd2d0962, type: 2}
     - target: {fileID: -927199367670048503, guid: fdea6bb6e0805234fadfd2b5304431c6,
         type: 3}
       propertyPath: m_Name
