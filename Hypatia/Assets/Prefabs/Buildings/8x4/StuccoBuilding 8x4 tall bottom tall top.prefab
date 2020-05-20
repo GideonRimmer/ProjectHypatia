@@ -945,6 +945,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tower_001
       objectReference: {fileID: 0}
+    - target: {fileID: 5677037957122373160, guid: c0e37eee21a9b034ebbd232fda15f20f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 6265692343112958708, guid: c0e37eee21a9b034ebbd232fda15f20f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
