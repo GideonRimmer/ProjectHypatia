@@ -16,8 +16,8 @@ public class ChasePlayer : MonoBehaviour
     {
         "Player"
     };
-    public int searchLeaderRadius;
-    public int minDistanceFromLeader;
+    public float searchLeaderRadius;
+    public float minDistanceFromLeader;
 
     void Start()
     {
