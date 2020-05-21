@@ -6,7 +6,6 @@ public class PlayerDamage : MonoBehaviour
 {
     public int maxHitPoints = 5;
     [SerializeField] private int currentHitPoints;
-    public float pushForce = 10.0f;
 
     private Rigidbody rigidbody;
     private CharacterController characterController;
