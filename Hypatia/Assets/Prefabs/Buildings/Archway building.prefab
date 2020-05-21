@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!65 &3214583593949367831
+--- !u!65 &7044714884285747432
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11,9 +11,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.047905162, y: 0.07368691, z: 0.022236291}
-  m_Center: {x: -0.0050857724, y: -0.000000509565, z: 0.0011233599}
---- !u!65 &1215221172412877682
+  m_Size: {x: 0.018461926, y: 0.012907723, z: 0.029298868}
+  m_Center: {x: 0.09224736, y: 0.13967045, z: -0.009742282}
+--- !u!65 &8605461603650596012
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24,8 +24,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.04692668, y: 0.07368691, z: 0.022236291}
-  m_Center: {x: -0.0055752583, y: -0.00000003500828, z: 0.0011233599}
+  m_Size: {x: 0.018461926, y: 0.012907723, z: 0.029298868}
+  m_Center: {x: 0.09224736, y: 0.13967039, z: -0.009742282}
 --- !u!1 &5801000143603050727
 GameObject:
   m_ObjectHideFlags: 0
@@ -66,7 +66,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3268872272057806204
+--- !u!65 &7912221354434027833
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -77,8 +77,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.04692668, y: 0.07368691, z: 0.022236291}
-  m_Center: {x: -0.0055752583, y: -0.00000003500828, z: 0.0011233599}
+  m_Size: {x: 0.018461926, y: 0.012907723, z: 0.029298868}
+  m_Center: {x: 0.09224736, y: 0.13967042, z: -0.009742313}
 --- !u!1 &8274995865857202760
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,7 +172,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &5862637679781279366
+--- !u!65 &5019901690947995957
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,8 +183,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.047905162, y: 0.07368691, z: 0.022236291}
-  m_Center: {x: -0.0050857724, y: -0.000000509565, z: 0.0011233599}
+  m_Size: {x: 0.018461926, y: 0.012907723, z: 0.029298868}
+  m_Center: {x: 0.09224736, y: 0.13967042, z: -0.009742313}
 --- !u!1001 &400155597698869391
 PrefabInstance:
   m_ObjectHideFlags: 0
