@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4583482978312586509}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: GaudiBuilding8x4_Roof2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,6 +33,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3778360578905403182
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3933403014080608866}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.1837034, y: 4, z: 8.000001}
+  m_Center: {x: 1.9081488, y: 2, z: -3.9999998}
 --- !u!1001 &1373215888987041826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99,6 +112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gaudi top 8x4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f425a03e8804b2d4fa62f2a9a3629b5f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f425a03e8804b2d4fa62f2a9a3629b5f, type: 3}
@@ -175,8 +193,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gaudi bottom 8x4
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d25bd3b00756ef741b87c4f4f5da2301,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d25bd3b00756ef741b87c4f4f5da2301, type: 3}
+--- !u!1 &3933403014080608866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: d25bd3b00756ef741b87c4f4f5da2301,
+    type: 3}
+  m_PrefabInstance: {fileID: 5023673188206699371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &57729769620326513 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d25bd3b00756ef741b87c4f4f5da2301,
@@ -249,6 +278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gaudi roof2 8x4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 530a49bfc75cdbe489f61947efd84004,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 530a49bfc75cdbe489f61947efd84004, type: 3}

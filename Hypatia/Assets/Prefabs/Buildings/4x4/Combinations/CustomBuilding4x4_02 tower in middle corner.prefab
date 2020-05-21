@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4952797839413514028}
   - component: {fileID: 5122562213021649876}
   - component: {fileID: 3216751630022029767}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3588164979815646974}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: CustomBuilding4x4_02 tower in middle corner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,6 +137,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2922632010966895503
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590412186147328768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.1300416, y: 4.000001, z: 4.038304}
+  m_Center: {x: 1.9530069, y: 2, z: -2.0041878}
 --- !u!1001 &393519195118091037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -208,6 +221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stucco_window_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfe8ec5a51abaf4ea3bc3debd42fc53, type: 3}
@@ -294,6 +312,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: gaudi_window_001 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8558537953745689982, guid: 2d4922cf86cc1db45a9cbe272f270527,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d4922cf86cc1db45a9cbe272f270527, type: 3}
 --- !u!4 &5216322539690027719 stripped
@@ -379,6 +402,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: gaudi_window_001 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8558537953745689982, guid: 2d4922cf86cc1db45a9cbe272f270527,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d4922cf86cc1db45a9cbe272f270527, type: 3}
 --- !u!4 &5457511660552199110 stripped
@@ -463,6 +491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: gaudi_window_001 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558537953745689982, guid: 2d4922cf86cc1db45a9cbe272f270527,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d4922cf86cc1db45a9cbe272f270527, type: 3}
@@ -564,6 +597,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gaudi roof 4x4
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fdea6bb6e0805234fadfd2b5304431c6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdea6bb6e0805234fadfd2b5304431c6, type: 3}
 --- !u!4 &7407956215996124291 stripped
@@ -659,6 +697,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden ledge corner 2x2
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: de9370bcdb6ed604c871f520f9a55691,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de9370bcdb6ed604c871f520f9a55691, type: 3}
 --- !u!4 &7918061859657483947 stripped
@@ -678,6 +721,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tower_001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677037957122373160, guid: c0e37eee21a9b034ebbd232fda15f20f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6265692343112958708, guid: c0e37eee21a9b034ebbd232fda15f20f,
         type: 3}
@@ -829,6 +877,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stucco_window_001 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfe8ec5a51abaf4ea3bc3debd42fc53, type: 3}
 --- !u!4 &8819807529102246074 stripped
@@ -908,6 +961,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stucco_window_001 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfe8ec5a51abaf4ea3bc3debd42fc53, type: 3}
@@ -993,6 +1051,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: gaudi_window_001 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558537953745689982, guid: 2d4922cf86cc1db45a9cbe272f270527,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d4922cf86cc1db45a9cbe272f270527, type: 3}
@@ -1084,11 +1147,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stucco_bottom_corner_4x4
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 29e451c3a5b73f74190f069cc8bf40ac,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29e451c3a5b73f74190f069cc8bf40ac, type: 3}
 --- !u!4 &2326424406971474195 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 29e451c3a5b73f74190f069cc8bf40ac,
+    type: 3}
+  m_PrefabInstance: {fileID: 7292359562073262601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1590412186147328768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 29e451c3a5b73f74190f069cc8bf40ac,
     type: 3}
   m_PrefabInstance: {fileID: 7292359562073262601}
   m_PrefabAsset: {fileID: 0}
@@ -1163,6 +1237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stucco_window_001 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfe8ec5a51abaf4ea3bc3debd42fc53, type: 3}
@@ -1248,6 +1327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: gaudi_window_001 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8558537953745689982, guid: 2d4922cf86cc1db45a9cbe272f270527,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d4922cf86cc1db45a9cbe272f270527, type: 3}

@@ -54,19 +54,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.1251397, y: 3.0000007, z: 8.027661}
   m_Center: {x: 1.9505557, y: 1.5000001, z: -3.9988666}
---- !u!65 &6603714251762971240
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8642216893428054584}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.1251397, y: 3.0000007, z: 8.027661}
-  m_Center: {x: 1.9505557, y: 1.5000001, z: -3.9988666}
 --- !u!1001 &346424707142640433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143,7 +130,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: a0aa6e09a5c962048986705232e19e59, type: 2}
+      objectReference: {fileID: 2100000, guid: adafbd1b544a82942af8d66afd2d0962, type: 2}
     - target: {fileID: -927199367670048503, guid: dcdb893c13b6602418c005c106026618,
         type: 3}
       propertyPath: m_Name
@@ -234,7 +221,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: a0aa6e09a5c962048986705232e19e59, type: 2}
+      objectReference: {fileID: 2100000, guid: 32ed2ebbc7fffd947a76666190985aaf, type: 2}
     - target: {fileID: -1504981713932161579, guid: 6ade749008202124bb21b50f45095bf1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -325,6 +312,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 75.84499
       objectReference: {fileID: 0}
+    - target: {fileID: 7967823668251781414, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e2dbb6531900ce498770fc875d6cf75, type: 2}
     - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
         type: 3}
       propertyPath: m_Name
@@ -424,7 +416,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[4]
       value: 
-      objectReference: {fileID: 2100000, guid: a0aa6e09a5c962048986705232e19e59, type: 2}
+      objectReference: {fileID: 2100000, guid: 32ed2ebbc7fffd947a76666190985aaf, type: 2}
     - target: {fileID: -1504981713932161579, guid: 9df1be0e2e8788c4981bedc48a48f93b,
         type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -434,11 +426,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: a0aa6e09a5c962048986705232e19e59, type: 2}
+      objectReference: {fileID: 2100000, guid: 32ed2ebbc7fffd947a76666190985aaf, type: 2}
     - target: {fileID: -927199367670048503, guid: 9df1be0e2e8788c4981bedc48a48f93b,
         type: 3}
       propertyPath: m_Name
       value: Gaudi roof2 4x4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9df1be0e2e8788c4981bedc48a48f93b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9df1be0e2e8788c4981bedc48a48f93b, type: 3}
@@ -515,6 +512,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 75.84499
       objectReference: {fileID: 0}
+    - target: {fileID: 7967823668251781414, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e2dbb6531900ce498770fc875d6cf75, type: 2}
     - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
         type: 3}
       propertyPath: m_Name
@@ -600,6 +602,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 75.84499
       objectReference: {fileID: 0}
+    - target: {fileID: 7967823668251781414, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e2dbb6531900ce498770fc875d6cf75, type: 2}
     - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
         type: 3}
       propertyPath: m_Name
@@ -685,6 +692,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 75.84499
       objectReference: {fileID: 0}
+    - target: {fileID: 7967823668251781414, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e2dbb6531900ce498770fc875d6cf75, type: 2}
     - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
         type: 3}
       propertyPath: m_Name
@@ -770,6 +782,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 75.84499
       objectReference: {fileID: 0}
+    - target: {fileID: 7967823668251781414, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e2dbb6531900ce498770fc875d6cf75, type: 2}
     - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
         type: 3}
       propertyPath: m_Name
@@ -855,6 +872,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 75.84499
       objectReference: {fileID: 0}
+    - target: {fileID: 7967823668251781414, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e2dbb6531900ce498770fc875d6cf75, type: 2}
     - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
         type: 3}
       propertyPath: m_Name
@@ -940,6 +962,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 75.84499
       objectReference: {fileID: 0}
+    - target: {fileID: 7967823668251781414, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e2dbb6531900ce498770fc875d6cf75, type: 2}
     - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
         type: 3}
       propertyPath: m_Name
@@ -1034,7 +1061,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[4]
       value: 
-      objectReference: {fileID: 2100000, guid: a0aa6e09a5c962048986705232e19e59, type: 2}
+      objectReference: {fileID: 2100000, guid: 32ed2ebbc7fffd947a76666190985aaf, type: 2}
     - target: {fileID: -1504981713932161579, guid: 9df1be0e2e8788c4981bedc48a48f93b,
         type: 3}
       propertyPath: m_Materials.Array.data[5]
@@ -1044,7 +1071,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: a0aa6e09a5c962048986705232e19e59, type: 2}
+      objectReference: {fileID: 2100000, guid: 32ed2ebbc7fffd947a76666190985aaf, type: 2}
     - target: {fileID: -1504981713932161579, guid: 9df1be0e2e8788c4981bedc48a48f93b,
         type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -1054,6 +1081,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gaudi roof2 4x4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9df1be0e2e8788c4981bedc48a48f93b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9df1be0e2e8788c4981bedc48a48f93b, type: 3}

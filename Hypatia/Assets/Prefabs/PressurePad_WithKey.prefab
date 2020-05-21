@@ -553,6 +553,12 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5160211772550001235, guid: 8cd7fe4c57858d44297cbbd7d0095f04,
+        type: 3}
+      propertyPath: keyEffect
+      value: 
+      objectReference: {fileID: 8964420740230431278, guid: 70dba9334cb177f4ca534429639ab280,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cd7fe4c57858d44297cbbd7d0095f04, type: 3}
 --- !u!4 &1763902576336087342 stripped

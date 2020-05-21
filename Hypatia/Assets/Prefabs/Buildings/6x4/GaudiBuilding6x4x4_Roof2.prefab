@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &1123112755305421150
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031873937956254220}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.1837034, y: 4, z: 6.000001}
+  m_Center: {x: 1.9081486, y: 1.9999999, z: -3}
 --- !u!1 &1336011907073399331
 GameObject:
   m_ObjectHideFlags: 0
@@ -9,7 +22,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4255867506794591191}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: GaudiBuilding6x4x4_Roof2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,6 +113,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gaudi top 6x4x4
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e3f864e96b97e37478c9b57e6101d4bf,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3f864e96b97e37478c9b57e6101d4bf, type: 3}
 --- !u!4 &370729200081169992 stripped
@@ -174,6 +192,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gaudi roof2 6x4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: fb52ac2000e29dc488af63e8bbd37a31,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb52ac2000e29dc488af63e8bbd37a31, type: 3}
@@ -250,8 +273,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gaudi bottom 6x4
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 4f50f25e11ca28848a939baa44b3a2c1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f50f25e11ca28848a939baa44b3a2c1, type: 3}
+--- !u!1 &1031873937956254220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 4f50f25e11ca28848a939baa44b3a2c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 9038758499593677573}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4038227181091635231 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 4f50f25e11ca28848a939baa44b3a2c1,

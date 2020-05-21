@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &2323545271932666885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5535266202538622432}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.125139, y: 3.0000007, z: 8.027661}
+  m_Center: {x: 1.9505557, y: 1.5000001, z: -3.9988666}
 --- !u!1 &7968389589409468265
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,7 +25,7 @@ GameObject:
   - component: {fileID: 8116172728724728067}
   - component: {fileID: 3158977346268913724}
   - component: {fileID: 1829067503903556491}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6392420564960191056}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: StuccoBuilding 8x4 short bottom short top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,6 +226,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stucco_window_001 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfe8ec5a51abaf4ea3bc3debd42fc53, type: 3}
 --- !u!4 &4929764167344358634 stripped
@@ -287,6 +305,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden ledge 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 69bf4d0436405de4e8ff0e033e9dc465,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69bf4d0436405de4e8ff0e033e9dc465, type: 3}
@@ -363,6 +386,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stucco_roof_2x4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1edefb243dd3b7041a87416c78410c6d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1edefb243dd3b7041a87416c78410c6d, type: 3}
 --- !u!4 &5895447389976655005 stripped
@@ -438,6 +466,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stucco_roof_2x4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1edefb243dd3b7041a87416c78410c6d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1edefb243dd3b7041a87416c78410c6d, type: 3}
 --- !u!4 &5834675915868247827 stripped
@@ -512,6 +545,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden ledge 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 69bf4d0436405de4e8ff0e033e9dc465,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69bf4d0436405de4e8ff0e033e9dc465, type: 3}
@@ -593,6 +631,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stucco_window_001
       objectReference: {fileID: 0}
+    - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfe8ec5a51abaf4ea3bc3debd42fc53, type: 3}
 --- !u!4 &7094900143993315610 stripped
@@ -667,6 +710,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden ledge corner 2x2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: de9370bcdb6ed604c871f520f9a55691,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de9370bcdb6ed604c871f520f9a55691, type: 3}
@@ -748,6 +796,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stucco_window_001 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfe8ec5a51abaf4ea3bc3debd42fc53, type: 3}
 --- !u!4 &7799962821307303379 stripped
@@ -827,6 +880,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stucco_window_001 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfe8ec5a51abaf4ea3bc3debd42fc53, type: 3}
@@ -908,11 +966,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stucco_bottom_corner_8x4
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dcdb893c13b6602418c005c106026618,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcdb893c13b6602418c005c106026618, type: 3}
 --- !u!4 &8829991585578799091 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: dcdb893c13b6602418c005c106026618,
+    type: 3}
+  m_PrefabInstance: {fileID: 4607422519644087529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5535266202538622432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: dcdb893c13b6602418c005c106026618,
     type: 3}
   m_PrefabInstance: {fileID: 4607422519644087529}
   m_PrefabAsset: {fileID: 0}
@@ -982,6 +1051,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden ledge 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 69bf4d0436405de4e8ff0e033e9dc465,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69bf4d0436405de4e8ff0e033e9dc465, type: 3}
@@ -1063,6 +1137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stucco_window_001 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfe8ec5a51abaf4ea3bc3debd42fc53, type: 3}
 --- !u!4 &220812911806478637 stripped
@@ -1143,6 +1222,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: stucco_window_001 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8552251466030177786, guid: edfe8ec5a51abaf4ea3bc3debd42fc53,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfe8ec5a51abaf4ea3bc3debd42fc53, type: 3}
 --- !u!4 &494212841203953519 stripped
@@ -1217,6 +1301,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stucco_roof_2x4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1edefb243dd3b7041a87416c78410c6d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1edefb243dd3b7041a87416c78410c6d, type: 3}
@@ -1293,6 +1382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden ledge corner 2x2
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: de9370bcdb6ed604c871f520f9a55691,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de9370bcdb6ed604c871f520f9a55691, type: 3}
 --- !u!4 &3489285089991682693 stripped
@@ -1368,6 +1462,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stucco_roof_2x4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 1edefb243dd3b7041a87416c78410c6d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1edefb243dd3b7041a87416c78410c6d, type: 3}
 --- !u!4 &4555936256352233884 stripped
@@ -1442,6 +1541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wooden ledge 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 69bf4d0436405de4e8ff0e033e9dc465,
+        type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69bf4d0436405de4e8ff0e033e9dc465, type: 3}
