@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca780d3a429988349959052e25c2c399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSceneName: Greyboxing
+  gameSceneName: GreyboxingLightTesting - Milas Building Scene
   creditsSceneName: CreditsMenu
 --- !u!1 &584076259
 GameObject:

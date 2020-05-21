@@ -52,10 +52,10 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 100
+  MinDistance: 0
+  MaxDistance: 10
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -140,11 +140,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fab6649381ed02f49a357a9e67a5c614, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 8960018441261256811}
+  audioSource: {fileID: 0}
   audioClips:
+  - {fileID: 8300000, guid: 76a9f5a33325a82459d57522c232fc90, type: 3}
+  - {fileID: 8300000, guid: 8362f3ba875f70b488c064298629d68e, type: 3}
   - {fileID: 8300000, guid: 240c7631797e47342a98eee1a67a47d2, type: 3}
   - {fileID: 8300000, guid: c8b526df4f5889748a29b94a4c820e0e, type: 3}
   - {fileID: 8300000, guid: 4e1d0e21d6c767948ae639e60d4cb355, type: 3}
-  - {fileID: 8300000, guid: 394171e04c59b8b4788c8d173a8bf630, type: 3}
+  - {fileID: 8300000, guid: 64cdb9e8b6fa17943bec00437e62df43, type: 3}
   - {fileID: 8300000, guid: ce73809376999e543b325a740ac19525, type: 3}
   - {fileID: 8300000, guid: ef654cf58fe202b40864996b311b57ab, type: 3}
