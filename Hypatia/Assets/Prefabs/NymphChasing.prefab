@@ -196,7 +196,7 @@ MonoBehaviour:
   moveTowardsSpeed: 3
   isMovingTowards: 0
   distanceToClosestLeader: 0
-  searchLeaderRadius: 200
+  searchLeaderRadius: 50
   minDistanceFromLeader: 1.5
 --- !u!1 &964518908664884768
 GameObject:
