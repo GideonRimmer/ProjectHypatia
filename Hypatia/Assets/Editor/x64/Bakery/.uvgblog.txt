@@ -2120,3 +2120,1101 @@ Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLight
 Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting_LMA6_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting_LMA6_dir.tga"
 Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+2020-5-21
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LM810 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA1 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_VLM 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LM810.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA1.lz4" 2 0 1 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_ao" 8 16 2
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810_ao" 8 16 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_ao" 8 16 1
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_2" 4 0 2 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM" 4 0 2 comp_2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810" 4 0 0 comp_0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1" 4 0 1 comp_1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_VLM0.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM8100.bin" "GreyboxingLightTesting - Milas Building Scene_LM810_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA10.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_VLM1.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM8101.bin" "GreyboxingLightTesting - Milas Building Scene_LM810_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA11.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_VLM2.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM8102.bin" "GreyboxingLightTesting - Milas Building Scene_LM810_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA12.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_VLM3.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM8103.bin" "GreyboxingLightTesting - Milas Building Scene_LM810_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA13.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final" 84 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_VLM4.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810_final" 84 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM8104.bin" "GreyboxingLightTesting - Milas Building Scene_LM810_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final" 84 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA14.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_Dir.lz4" 64 0 2 dircomp_indirect2.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM810_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM810_final_Dir.lz4" 1024
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM810_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM810_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM810_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "0" "GreyboxingLightTesting - Milas Building Scene_LM810_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LM810_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 1024
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "1" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM810_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM810_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM810_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM810_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_dir.tga"
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 1
+Done
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LM752 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA1 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA2 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA3 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_VLM 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LM752.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA2.lz4" 2 0 2 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA3.lz4" 2 0 3 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA1.lz4" 2 0 1 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_ao" 8 16 4
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_ao" 8 16 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_ao" 8 16 2
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_ao" 8 16 3
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_ao" 8 16 1
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_4" 4 0 4 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM" 4 0 4 comp_4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752" 4 0 0 comp_0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_2" 4 0 2 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2" 4 0 2 comp_2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_3" 4 0 3 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3" 4 0 3 comp_3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1" 4 0 1 comp_1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM0.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7520.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA20.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA30.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA10.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM1.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7521.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA21.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA31.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA11.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM2.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7522.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA22.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA32.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA12.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM3.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7523.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA23.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA33.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA13.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final" 84 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM4.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final" 84 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7524.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final" 84 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA24.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final" 84 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA34.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final" 84 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA14.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_Dir.lz4" 64 0 4 dircomp_indirect4.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 64 0 2 dircomp_indirect2.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 64 0 3 dircomp_indirect3.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "0" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "2" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "3" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "1" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_dir.tga"
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 1
+Done
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LM752 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA1 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA2 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA3 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA4 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_VLM 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LM752.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA1.lz4" 2 0 1 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA2.lz4" 2 0 2 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA3.lz4" 2 0 3 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA4.lz4" 2 0 4 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_ao" 8 16 5
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_ao" 8 16 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_ao" 8 16 1
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_ao" 8 16 2
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_ao" 8 16 3
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_ao" 8 16 4
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_5" 4 0 5 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM" 4 0 5 comp_5.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_Dir.lz4" 64 0 5 dircomp_5.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752" 4 0 0 comp_0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1" 4 0 1 comp_1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_2" 4 0 2 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2" 4 0 2 comp_2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_3" 4 0 3 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3" 4 0 3 comp_3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_4" 4 0 4 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4" 4 0 4 comp_4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_VLM0.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7520.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA10.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA20.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA30.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA40.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_VLM1.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7521.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA11.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA21.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA31.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA41.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_VLM2.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7522.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA12.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA22.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA32.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA42.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_VLM3.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7523.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA13.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA23.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA33.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA43.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final" 84 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_VLM4.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final" 84 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7524.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final" 84 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA14.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final" 84 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA24.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final" 84 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA34.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final" 84 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA44.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_Dir.lz4" 64 0 5 dircomp_indirect5.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 64 0 2 dircomp_indirect2.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 64 0 3 dircomp_indirect3.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" 64 0 4 dircomp_indirect4.bin
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "0" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "1" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "2" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "3" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" 1024
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "4" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA4_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA4_dir.tga"
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 1
+Done
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LM752 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA1 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA2 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA3 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_VLM 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LM752.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA1.lz4" 2 0 1 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA2.lz4" 2 0 2 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA3.lz4" 2 0 3 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_ao" 8 16 4
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_ao" 8 16 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_ao" 8 16 1
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_ao" 8 16 2
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_ao" 8 16 3
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_4" 4 0 4 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM" 4 0 4 comp_4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752" 4 0 0 comp_0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1" 4 0 1 comp_1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_2" 4 0 2 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2" 4 0 2 comp_2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_3" 4 0 3 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3" 4 0 3 comp_3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM0.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7520.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA10.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA20.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA30.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM1.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7521.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA11.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA21.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA31.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM2.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7522.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA12.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA22.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA32.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM3.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7523.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA13.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA23.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA33.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final" 84 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM4.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final" 84 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7524.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final" 84 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA14.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final" 84 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA24.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final" 84 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA34.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_Dir.lz4" 64 0 4 dircomp_indirect4.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 64 0 2 dircomp_indirect2.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 64 0 3 dircomp_indirect3.bin
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "0" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "1" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "2" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "3" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_dir.tga"
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 1
+Done
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LM752 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA1 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA2 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA3 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_VLM 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LM752.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA1.lz4" 2 0 1 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA2.lz4" 2 0 2 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA3.lz4" 2 0 3 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_ao" 8 16 4
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_ao" 8 16 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_ao" 8 16 1
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_ao" 8 16 2
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_ao" 8 16 3
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_4" 4 0 4 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM" 4 0 4 comp_4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752" 4 0 0 comp_0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1" 4 0 1 comp_1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_2" 4 0 2 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2" 4 0 2 comp_2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_3" 4 0 3 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3" 4 0 3 comp_3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM0.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7520.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA10.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA20.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA30.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM1.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7521.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA11.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA21.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA31.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM2.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7522.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA12.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA22.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA32.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM3.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7523.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA13.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA23.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA33.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final" 84 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_VLM4.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final" 84 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7524.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final" 84 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA14.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final" 84 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA24.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final" 84 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA34.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_Dir.lz4" 64 0 4 dircomp_indirect4.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 64 0 2 dircomp_indirect2.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 64 0 3 dircomp_indirect3.bin
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "0" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "1" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "2" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "3" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_dir.tga"
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 1
+Done
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LM752 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA1 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA2 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA3 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_VLM 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LM752.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA1.lz4" 2 0 1 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA2.lz4" 2 0 2 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA3.lz4" 2 0 3 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_ao" 8 16 4
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_ao" 8 16 5
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_ao" 8 16 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_ao" 8 16 1
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_ao" 8 16 2
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_ao" 8 16 3
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_4" 4 0 4 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "probes" 4 0 4 comp_4.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_5" 4 0 5 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM" 4 0 5 comp_5.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_Dir.lz4" 64 0 5 dircomp_5.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752" 4 0 0 comp_0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1" 4 0 1 comp_1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_2" 4 0 2 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2" 4 0 2 comp_2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_3" 4 0 3 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3" 4 0 3 comp_3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_VLM0.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7520.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA10.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA20.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA30.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_VLM1.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7521.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA11.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA21.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA31.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_VLM2.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7522.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA12.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA22.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA32.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_VLM3.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7523.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA13.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA23.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA33.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final" 1940 16 4 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final" 84 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_VLM4.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final" 84 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7524.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final" 84 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA14.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final" 84 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA24.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final" 84 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA34.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_Dir.lz4" 64 0 5 dircomp_indirect5.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 64 0 2 dircomp_indirect2.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 64 0 3 dircomp_indirect3.bin
+Running ftrace addsh "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final_" 4 0 4 shcomp_4.bin
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final_L0.lz4" 4 0 4 addao_4.bin
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "0" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "1" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "2" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "3" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_dir.tga"
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 1024x1024: 1
+Done
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LM752 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA1 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA2 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA3 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA4 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA5 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_VLM 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LM752.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA2.lz4" 2 0 2 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA3.lz4" 2 0 3 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA1.lz4" 2 0 1 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA4.lz4" 2 0 4 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA5.lz4" 2 0 5 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_ao" 8 16 6
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_ao" 8 16 7
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_ao" 8 16 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_ao" 8 16 2
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_ao" 8 16 3
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_ao" 8 16 1
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_ao" 8 16 4
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_ao" 8 16 5
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_6" 4 0 6 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "probes" 4 0 6 comp_6.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_7" 4 0 7 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM" 4 0 7 comp_7.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_Dir.lz4" 64 0 7 dircomp_7.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752" 4 0 0 comp_0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_2" 4 0 2 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2" 4 0 2 comp_2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_3" 4 0 3 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3" 4 0 3 comp_3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1" 4 0 1 comp_1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_4" 4 0 4 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4" 4 0 4 comp_4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_5" 4 0 5 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5" 4 0 5 comp_5.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_lights_Dir.lz4" 64 0 5 dircomp_5.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 7 "gi_GreyboxingLightTesting - Milas Building Scene_VLM0.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7520.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA20.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA30.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA10.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA40.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_LMA50.bin" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 7 "gi_GreyboxingLightTesting - Milas Building Scene_VLM1.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7521.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA21.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA31.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA11.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA41.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_LMA51.bin" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 7 "gi_GreyboxingLightTesting - Milas Building Scene_VLM2.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7522.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA22.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA32.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA12.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA42.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_LMA52.bin" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 7 "gi_GreyboxingLightTesting - Milas Building Scene_VLM3.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7523.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA23.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA33.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA13.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA43.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_LMA53.bin" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final" 1940 16 6 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final" 84 16 7 "gi_GreyboxingLightTesting - Milas Building Scene_VLM4.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final" 84 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM7524.bin" "GreyboxingLightTesting - Milas Building Scene_LM752_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final" 84 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA24.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final" 84 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA34.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final" 84 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA14.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final" 84 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA44.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_final" 84 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_LMA54.bin" "GreyboxingLightTesting - Milas Building Scene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final_HDR.lz4" 4 0 6 comp_indirect6.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_HDR.lz4" 4 0 7 comp_indirect7.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_Dir.lz4" 64 0 7 dircomp_indirect7.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 64 0 2 dircomp_indirect2.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 64 0 3 dircomp_indirect3.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" 64 0 4 dircomp_indirect4.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_final_Dir.lz4" 64 0 5 dircomp_indirect5.bin
+Running ftrace addsh "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final_" 4 0 6 shcomp_6.bin
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final_L0.lz4" 4 0 6 addao_6.bin
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "0" "GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "2" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "3" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "1" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "4" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_Dir.lz4" 1024
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" 4 0 5 addao_5.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "5" "GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA5_final_Dir.lz4
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM752_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM752_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA4_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA4_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA5_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA5_dir.tga"
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Done
+Done
+Done
+Done
+[03:11:28] INFO: Umbra 3 Optimizer version 3.3.22  (build: aa99894236119ba2e0eac5ca04d0133b3067a375)
+[03:11:28] INFO: T: 20 O: 5 H: 0.25 B: 100
+[03:11:29] INFO: Tile grid 72x16x64 (at -36,-4,-32) created for scene: 575 tiles (0 empties not included) in 0.815 seconds
+[03:11:29] INFO: Using 8 threads to compute 575 tiles, cache 4096 MB
+[03:11:39] INFO: Tile processing complete, computed 575 tiles
+[03:11:39] INFO: Strict view volumes: no
+[03:11:39] INFO: Filtered 938/939 inside clusters
+[03:11:39] INFO: Filtered 1412/1413 global clusters
+[03:11:39] INFO: 1490/2902 cells reachable after global analysis
+[03:11:40] INFO: collapsed leaf tiles 575 => 16
+[03:11:40] INFO: Generating LOD tiles using 8 threads
+[03:11:41] INFO: Connecting LOD tiles
+[03:11:41] INFO: Compressing lists
+[03:11:41] INFO: Average index range size: 124.25
+[03:11:41] INFO: object list: 6 kB 872 B, cluster list: 24 B
+[03:11:41] INFO: created tome with 31 tiles, 2368 targets and 0 gates
+[03:11:41] INFO: Checking cache...
+[03:11:41] INFO: Cache check finished
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+2020-5-22
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LM698 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA1 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA2 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA3 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA4 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_LMA5 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for GreyboxingLightTesting - Milas Building Scene_VLM 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LM698.lz4" 2 0 0 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA2.lz4" 2 0 2 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA3.lz4" 2 0 3 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA1.lz4" 2 0 1 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA4.lz4" 2 0 4 0
+Running ftrace fixpos12 "C:\Users\jkjan\AppData\Local\Temp\frender" "uvpos_GreyboxingLightTesting - Milas Building Scene_LMA5.lz4" 2 0 5 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_ao" 8 16 6
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_ao" 8 16 7
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698_ao" 8 16 0
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_ao" 8 16 2
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_ao" 8 16 3
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_ao" 8 16 1
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_ao" 8 16 4
+Running ftrace ao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_ao" 8 16 5
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_6" 4 0 6 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "probes" 4 0 6 comp_6.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_7" 4 0 7 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM" 4 0 7 comp_7.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_Dir.lz4" 64 0 7 dircomp_7.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_0" 4 0 0 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698" 4 0 0 comp_0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_2" 4 0 2 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2" 4 0 2 comp_2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_Dir.lz4" 64 0 2 dircomp_2.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_3" 4 0 3 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3" 4 0 3 comp_3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_Dir.lz4" 64 0 3 dircomp_3.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_1" 4 0 1 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1" 4 0 1 comp_1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_Dir.lz4" 64 0 1 dircomp_1.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_4" 4 0 4 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4" 4 0 4 comp_4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_lights_Dir.lz4" 64 0 4 dircomp_4.bin
+Running ftrace sun "C:\Users\jkjan\AppData\Local\Temp\frender" "light_-1853594800_5" 4 0 5 direct0.bin
+Running ftrace addmul "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5" 4 0 5 comp_5.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_lights_Dir.lz4" 64 0 5 dircomp_5.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 7 "gi_GreyboxingLightTesting - Milas Building Scene_VLM0.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM6980.bin" "GreyboxingLightTesting - Milas Building Scene_LM698_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA20.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA30.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA10.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA40.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_LMA50.bin" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 7 "gi_GreyboxingLightTesting - Milas Building Scene_VLM1.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM6981.bin" "GreyboxingLightTesting - Milas Building Scene_LM698_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA21.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA31.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA11.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA41.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_LMA51.bin" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 7 "gi_GreyboxingLightTesting - Milas Building Scene_VLM2.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM6982.bin" "GreyboxingLightTesting - Milas Building Scene_LM698_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA22.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA32.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA12.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA42.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_LMA52.bin" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse" 4 16 7 "gi_GreyboxingLightTesting - Milas Building Scene_VLM3.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698_diffuse" 4 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM6983.bin" "GreyboxingLightTesting - Milas Building Scene_LM698_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse" 4 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA23.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse" 4 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA33.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse" 4 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA13.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse" 4 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA43.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgi "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse" 4 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_LMA53.bin" "GreyboxingLightTesting - Milas Building Scene_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftrace texgiprobesh "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final" 1940 16 6 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final" 84 16 7 "gi_GreyboxingLightTesting - Milas Building Scene_VLM4.bin" "GreyboxingLightTesting - Milas Building Scene_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698_final" 84 16 0 "gi_GreyboxingLightTesting - Milas Building Scene_LM6984.bin" "GreyboxingLightTesting - Milas Building Scene_LM698_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final" 84 16 2 "gi_GreyboxingLightTesting - Milas Building Scene_LMA24.bin" "GreyboxingLightTesting - Milas Building Scene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final" 84 16 3 "gi_GreyboxingLightTesting - Milas Building Scene_LMA34.bin" "GreyboxingLightTesting - Milas Building Scene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final" 84 16 1 "gi_GreyboxingLightTesting - Milas Building Scene_LMA14.bin" "GreyboxingLightTesting - Milas Building Scene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final" 84 16 4 "gi_GreyboxingLightTesting - Milas Building Scene_LMA44.bin" "GreyboxingLightTesting - Milas Building Scene_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace texgidir "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_final" 84 16 5 "gi_GreyboxingLightTesting - Milas Building Scene_LMA54.bin" "GreyboxingLightTesting - Milas Building Scene_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final_HDR.lz4" 4 0 6 comp_indirect6.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_HDR.lz4" 4 0 7 comp_indirect7.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_VLM_final_Dir.lz4" 64 0 7 dircomp_indirect7.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698_final_Dir.lz4" 64 0 0 dircomp_indirect0.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 64 0 2 dircomp_indirect2.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 64 0 3 dircomp_indirect3.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 64 0 1 dircomp_indirect1.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" 64 0 4 dircomp_indirect4.bin
+Running ftrace add "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftrace diradd "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_final_Dir.lz4" 64 0 5 dircomp_indirect5.bin
+Running ftrace addsh "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final_" 4 0 6 shcomp_6.bin
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "probes_final_L0.lz4" 4 0 6 addao_6.bin
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM698_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM698_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LM698_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM698_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM698_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "0" "GreyboxingLightTesting - Milas Building Scene_LM698_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LM698_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "2" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "3" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" 4096
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "1" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" 2048
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" 4 0 4 addao_4.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "4" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4
+Running denoiseDir "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_Dir.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_Dir.lz4" 1024
+Running ftrace addao "C:\Users\jkjan\AppData\Local\Temp\frender" "GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" 4 0 5 addao_5.bin
+Running denoiser "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jkjan\AppData\Local\Temp\frender" "5" "GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" "GreyboxingLightTesting - Milas Building Scene_LMA5_final_Dir.lz4
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM698_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM698_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LM698_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LM698_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA2_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA2_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA3_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA3_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA1_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA1_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA4_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA4_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA4_dir.tga"
+Running halffloat2hdr "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_HDR.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA5_final.hdr"
+Running rgba2tga "C:\Users\jkjan\AppData\Local\Temp\frender/GreyboxingLightTesting - Milas Building Scene_LMA5_final_Dir.lz4" "D:/Janeczek/KADK/Semester2/CityProjectSecondWeek/ProjectHypatia/Hypatia/Assets/BakeryLightmaps/GreyboxingLightTesting - Milas Building Scene_LMA5_dir.tga"
