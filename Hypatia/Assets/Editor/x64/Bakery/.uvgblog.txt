@@ -3228,3 +3228,5 @@ Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\City
 Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Symbol file LoadedFromMemory doesn't match image D:\Janeczek\KADK\Semester2\CityProjectSecondWeek\ProjectHypatia\Hypatia\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
