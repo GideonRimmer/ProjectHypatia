@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = false;
         controller = GetComponent<CharacterController>();
     }
     private void Update()

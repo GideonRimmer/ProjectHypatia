@@ -48,28 +48,28 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Depth: -5.37
-    - _EdgeFoarmTile: 2.04
+    - _Depth: -0.65
+    - _EdgeFoarmTile: 5.83
     - _EdgeFoarmTile1: 1
     - _EdgeLength: 12.7
     - _EdgePower: 0.35
     - _FoamEdgeDistance: 0.24
-    - _FoamEdgeDrawDistance: 0.75
-    - _FoamPower: 0.508
+    - _FoamEdgeDrawDistance: 0.13
+    - _FoamPower: 0.15
     - _MaxTesselation: 400
-    - _NormalPanSpeed: 0.002
+    - _NormalPanSpeed: 0.001
     - _NormalStrength: 1.66
     - _NormalTile: -0.9
     - _RefractAmount: 0.01
     - _SeaFoamTile: 0
     - _Smoothness: 1
-    - _Tesselation: 17.5
-    - _WaveHeight: 0.01
+    - _Tesselation: 16.56
+    - _WaveHeight: 0.001
     - _WaveSpeed: 0.2
     - _WaveTiling: 0.03
     - __dirty: 0
     m_Colors:
-    - _BrighterWater: {r: 0.12055002, g: 0.5943396, b: 0.58944947, a: 1}
-    - _DarkerWater: {r: 0.038180865, g: 0.5944261, b: 0.6226415, a: 0}
+    - _BrighterWater: {r: 0.12517802, g: 0.9150943, b: 0.9020379, a: 1}
+    - _DarkerWater: {r: 0.18783373, g: 0.611205, b: 0.6320754, a: 0}
     - _WaveDirection: {r: 1, g: 0, b: 0, a: 0}
     - _WaveStretch: {r: 2.84, g: 0.71, b: 0, a: 0}

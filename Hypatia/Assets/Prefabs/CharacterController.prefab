@@ -47,7 +47,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3005003362422478690}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -108,7 +108,7 @@ Transform:
   m_GameObject: {fileID: 3005003363504452367}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4, y: 0.57162887, z: 1.4}
   m_Children:
   - {fileID: 3005003364019752358}
   - {fileID: 3005003362422478691}
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 9073723464282752442}
   characterSpeed: 5
-  JumpHeight: 1.5
+  JumpHeight: 0
   GroundCheck: {fileID: 3005003364303868560}
   groundMask:
     serializedVersion: 2
@@ -148,7 +148,7 @@ CharacterController:
   serializedVersion: 2
   m_Height: 2.14
   m_Radius: 0.35
-  m_SlopeLimit: 45
+  m_SlopeLimit: 20
   m_StepOffset: 0.7
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
