@@ -64,7 +64,7 @@ Material:
     - _SeaFoamTile: 0
     - _Smoothness: 0.8
     - _Tesselation: 20
-    - _WaveHeight: 0.4
+    - _WaveHeight: 0.3
     - _WaveSpeed: 0.2
     - _WaveTiling: 0.03
     - __dirty: 0
