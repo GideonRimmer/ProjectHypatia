@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5717892086988425711
 Transform:
   m_ObjectHideFlags: 0
@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1936228852699429586
 Transform:
   m_ObjectHideFlags: 0
@@ -2391,6 +2391,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nymph_Swimming (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6571093432821800464, guid: 5d3f3210661c66e419a8cd0d62e9a566,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d3f3210661c66e419a8cd0d62e9a566, type: 3}
 --- !u!4 &433204537347428906 stripped
@@ -2561,6 +2566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nymph_Treading (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2237799048694518497, guid: c2c0b68068a71b04b891ab28afccc167,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2c0b68068a71b04b891ab28afccc167, type: 3}
 --- !u!4 &5656595960649928076 stripped
@@ -2636,6 +2646,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nymph_Swimming (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6571093432821800464, guid: 5d3f3210661c66e419a8cd0d62e9a566,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d3f3210661c66e419a8cd0d62e9a566, type: 3}
 --- !u!4 &433204538096889315 stripped
@@ -2710,6 +2725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nymph_Swimming (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571093432821800464, guid: 5d3f3210661c66e419a8cd0d62e9a566,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d3f3210661c66e419a8cd0d62e9a566, type: 3}
@@ -2871,6 +2891,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nymph_Treading (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4867622517076873847, guid: c2c0b68068a71b04b891ab28afccc167,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 16a3024cef7eec14b8a8aafb54147fbb, type: 2}
+    - target: {fileID: 4867622517190575509, guid: c2c0b68068a71b04b891ab28afccc167,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6f30efc3d3504b4468da920b35d9b9f2, type: 2}
+    - target: {fileID: 4867622517976530340, guid: c2c0b68068a71b04b891ab28afccc167,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 936bdd83305eabb4c831e56aa6a84b7c, type: 2}
+    - target: {fileID: 4867622518073609609, guid: c2c0b68068a71b04b891ab28afccc167,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 77e0c16034921e74aaa70375e45114d4, type: 2}
+    - target: {fileID: 4867622518158323610, guid: c2c0b68068a71b04b891ab28afccc167,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e2c0e7c062e4ed843b5ab2c89a2a088e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2c0b68068a71b04b891ab28afccc167, type: 3}
 --- !u!4 &5656595959956707448 stripped
@@ -3115,6 +3160,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nymph_Swimming (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571093432821800464, guid: 5d3f3210661c66e419a8cd0d62e9a566,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d3f3210661c66e419a8cd0d62e9a566, type: 3}
@@ -3860,6 +3910,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nymph_Swimming
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571093432821800464, guid: 5d3f3210661c66e419a8cd0d62e9a566,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d3f3210661c66e419a8cd0d62e9a566, type: 3}
