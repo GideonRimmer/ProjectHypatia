@@ -22,6 +22,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3166895355811081998}
+  - component: {fileID: 23778445211954360}
   m_Layer: 16
   m_Name: ComboBuilding 6x4 short bottom short top
   m_TagString: Untagged
@@ -63,6 +64,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &23778445211954360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266293777092750984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &6515259887296323510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,15 +1967,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f94dfd79df72b84da202ff55692ba3f, type: 3}
---- !u!1 &661570262072530530 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 4f94dfd79df72b84da202ff55692ba3f,
-    type: 3}
-  m_PrefabInstance: {fileID: 8795446181322084203}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4572569230643127409 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 4f94dfd79df72b84da202ff55692ba3f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8795446181322084203}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &661570262072530530 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 4f94dfd79df72b84da202ff55692ba3f,
     type: 3}
   m_PrefabInstance: {fileID: 8795446181322084203}
   m_PrefabAsset: {fileID: 0}

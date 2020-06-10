@@ -57,10 +57,11 @@ Material:
     - _FoamEdgeDrawDistance: 0.75
     - _FoamPower: 0.508
     - _MaxTesselation: 400
+    - _Metallic: 0
     - _NormalPanSpeed: 0.007
     - _NormalStrength: 1.66
     - _NormalTile: -0.9
-    - _RefractAmount: 0.01
+    - _RefractAmount: 0.02
     - _SeaFoamTile: 0
     - _Smoothness: 0.8
     - _Tesselation: 20
@@ -70,6 +71,6 @@ Material:
     - __dirty: 0
     m_Colors:
     - _BrighterWater: {r: 0.12055002, g: 0.5943396, b: 0.58944947, a: 1}
-    - _DarkerWater: {r: 0.038180865, g: 0.5944261, b: 0.6226415, a: 0}
+    - _DarkerWater: {r: 0.038180865, g: 0.5944261, b: 0.62264144, a: 1}
     - _WaveDirection: {r: 1, g: 0, b: 0, a: 0}
     - _WaveStretch: {r: 2.84, g: 0.71, b: 0, a: 0}
