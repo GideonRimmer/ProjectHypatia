@@ -1,5 +1,8 @@
-﻿using System.Collections;
+﻿using Gamekit3D;
+using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -10,6 +13,20 @@ public class LadyController : MonoBehaviour
     public Transform CurrentPatrolPath;
     public Transform[] currentWaypoints;
     public int targetWaypointIndex;
+    public Transform LastSeenPosition;
+
+    public GameObject Player;
+    public NPCStateMachine NPCState;
+    public float attackDistance = 1f;
+    public float attackTimeout = 1f;
+    public float SpotPlayerDistance = 8f;
+    public float SpotPlayerAngle = 90f;
+    public float InvestigationTime = 6f;
+    public LayerMask layerMask;
+    public Transform Head;
+    public bool attacking = false;
+    public bool investigating = false;
+
     public bool FoundPlayer = false;
 
     Animator anim;
@@ -32,45 +49,140 @@ public class LadyController : MonoBehaviour
         navMeshAgent = GetComponent<NavMeshAgent>();
         navMeshAgent.updatePosition = false;
         FindClosestWaypoint(currentWaypoints);
+        LastSeenPosition = Instantiate(LastSeenPosition, transform.position, transform.rotation, null);
     }
 
     private void Update()
     {
-        Patrol();
+        CheckIfPlayerVisible();
+        switch (NPCState)
+        {
+            case NPCStateMachine.Patrol:
+                HeadToTarget(target);
+                if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance && !FoundPlayer)
+                {
+                    targetWaypointIndex++;
+                    if (targetWaypointIndex >= currentWaypoints.Length)
+                        targetWaypointIndex = 0;
+
+                    target = currentWaypoints[targetWaypointIndex];
+                    //HeadToTarget(target);
+                }
+
+                if (FoundPlayer)
+                {
+                    NPCState = NPCStateMachine.Chase;
+                }
+                break;
+
+            case NPCStateMachine.Chase:
+                HeadToTarget(target);
+
+                if (Vector3.Distance(transform.position, Player.transform.position) <= navMeshAgent.stoppingDistance + .5f && FoundPlayer)
+                {
+                    NPCState = NPCStateMachine.Attack;
+                }
+
+                if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance && !FoundPlayer)
+                {
+                    NPCState = NPCStateMachine.Investigate;
+                }
+                break;
+
+            case NPCStateMachine.Attack:
+                if (attacking == false)
+                    StartCoroutine(Attack());
+                break;
+
+            case NPCStateMachine.Investigate:
+
+                if (!investigating)
+                {
+                    StartCoroutine("Investigate");
+                }
+
+                if (FoundPlayer)
+                {
+                    StopCoroutine("Investigate");
+                    investigating = false;
+                    anim.SetBool("investigate", investigating);
+                    NPCState = NPCStateMachine.Chase;
+                }
+                break;
+
+            case NPCStateMachine.GoBackToPatrol:
+                    FindClosestWaypoint(currentWaypoints);
+                    NPCState = NPCStateMachine.Patrol;
+                break;
+
+            default:
+                break;
+        }
+
         trackPositionAndVelocity();
     }
 
+    IEnumerator Attack()
+    {
+        attacking = true;
+            yield return new WaitForSeconds(1f);
+        NPCState = NPCStateMachine.Chase;
+        attacking = false;
+    }
 
+    IEnumerator Investigate()
+    {
+        investigating = true;
+        anim.SetBool("investigate", investigating);
+        yield return new WaitForSeconds(InvestigationTime);
+        NPCState = NPCStateMachine.GoBackToPatrol;
+        investigating = false;
+    }
+    
+
+    public void CheckIfPlayerVisible()
+    {
+        float distanceFromPlayer = Vector3.Distance(Head.position, Player.transform.position);
+        if (distanceFromPlayer < SpotPlayerDistance)
+        {
+            Vector3 PlayerDirection = (Player.transform.position - Head.position).normalized;
+            float playerNPCAngle = Vector3.Angle(PlayerDirection, Head.forward);
+            if (playerNPCAngle < SpotPlayerAngle / 2f)
+            {
+                if (!Physics.Linecast(Head.position, Player.transform.position, layerMask))
+                {
+                    LastSeenPosition.position = Player.transform.position;
+                    target = LastSeenPosition;
+                    FoundPlayer = true;
+                }
+            }
+            if (!Physics.Linecast(Head.position, Player.transform.position, layerMask) && distanceFromPlayer<3f)
+            {
+                LastSeenPosition.position = Player.transform.position;
+                target = LastSeenPosition;
+                FoundPlayer = true;
+            }
+        }
+        else
+            FoundPlayer = false;
+
+    }
 
     void FindClosestWaypoint(Transform[] waypoints)
     {
         int closestWaypoint = 0;
+        float closestDistance = Vector3.Distance(waypoints[0].position, transform.position);
         for (int i = 0; i < waypoints.Length; i++)
         {
-            if (Vector3.Distance(waypoints[i].position, transform.position) < Vector3.Distance(waypoints[closestWaypoint].position, transform.position))
+            float tempDistance = Vector3.Distance(waypoints[i].position, transform.position);
+            if(tempDistance < closestDistance)
             {
                 closestWaypoint = i;
+                closestDistance = tempDistance;
             }
         }
         targetWaypointIndex = closestWaypoint;
-
         target = waypoints[targetWaypointIndex];
-    }
-
-    void Patrol()
-    {
-        if (!FoundPlayer)
-        {
-            if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < 0.5f)
-            {
-                targetWaypointIndex++;
-                if (targetWaypointIndex >= currentWaypoints.Length)
-                    targetWaypointIndex = 0;
-
-                target = currentWaypoints[targetWaypointIndex];
-                HeadToTarget(target);
-            }
-        }
     }
 
     public void HeadToTarget(Transform _target)
@@ -96,10 +208,10 @@ public class LadyController : MonoBehaviour
             velocity = smoothDeltaPosition / Time.deltaTime;
         velocity = velocity.normalized;
 
-        bool shouldMove = velocity.magnitude > 0.5f && navMeshAgent.remainingDistance > navMeshAgent.radius;
+        bool shouldMove = velocity.magnitude > 0.5f && navMeshAgent.remainingDistance > navMeshAgent.stoppingDistance;
 
-        // Update animation parameters
         anim.SetBool("move", shouldMove);
+        anim.SetBool("attack", attacking);
         anim.SetFloat("xvel", velocity.x);
         anim.SetFloat("yvel", velocity.y);
 
@@ -107,21 +219,19 @@ public class LadyController : MonoBehaviour
 		if (worldDeltaPosition.magnitude > navMeshAgent.radius)
 		transform.position = navMeshAgent.nextPosition - 0.9f*worldDeltaPosition;*/
 
-        /*if (worldDeltaPosition.magnitude > navMeshAgent.radius)
-        navMeshAgent.nextPosition = transform.position + 0.9f*worldDeltaPosition;*/
+        if (worldDeltaPosition.magnitude > navMeshAgent.radius)
+        navMeshAgent.nextPosition = transform.position + 0.9f*worldDeltaPosition;
     }
 
     void OnAnimatorMove()
     {
-        // Update postion to agent position
-        //		transform.position = agent.nextPosition;
-
         // Update position based on animation movement using navigation surface height
         Vector3 position = anim.rootPosition;
         position.y = navMeshAgent.nextPosition.y;
         transform.position = position;
     }
 
+    //Draw target direction
     private void OnDrawGizmos()
     {
         if (currentWaypoints.Length != 0)
@@ -130,4 +240,12 @@ public class LadyController : MonoBehaviour
             Gizmos.DrawLine(transform.position, target.position);
         }
     }
+}
+
+public enum NPCStateMachine{
+    Patrol,
+    Chase,
+    Attack,
+    Investigate,
+    GoBackToPatrol
 }
