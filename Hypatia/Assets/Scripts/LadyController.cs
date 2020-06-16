@@ -14,7 +14,11 @@ public class LadyController : MonoBehaviour
     public Transform[] currentWaypoints;
     public int targetWaypointIndex;
     public Transform LastSeenPosition;
-
+    public Vector3 adjustNPCLookHeight;
+    float GeneralIKWeight = .7f;
+    float BodyIKWeight = .3f;
+    float HeadIKWeight = .6f;
+    
     public GameObject Player;
     public NPCStateMachine NPCState;
     public float attackDistance = 1f;
@@ -109,12 +113,14 @@ public class LadyController : MonoBehaviour
             case NPCStateMachine.Investigate:
                 if (!investigating)
                 {
+                    GeneralIKWeight = 0;
                     StartCoroutine("Investigate");
                 }
 
                 if (FoundPlayer)
                 {
                     investigating = false;
+                    GeneralIKWeight = .7f;
                     anim.SetBool("investigate", investigating);
                     StopCoroutine("Investigate");
                     NPCState = NPCStateMachine.Chase;
@@ -163,7 +169,6 @@ public class LadyController : MonoBehaviour
             {
                 if (!Physics.Linecast(Head.position, Player.transform.position, layerMask))
                 {
-                    Debug.Log("Player is in Cone of Vision");
                     LastSeenPosition.position = Player.transform.position;
                     target = LastSeenPosition;
                     return true;
@@ -171,7 +176,6 @@ public class LadyController : MonoBehaviour
             }
             if (!Physics.Linecast(Head.position, Player.transform.position, layerMask) && distanceFromPlayer < 3f)
             {
-                Debug.Log("Player is closer than 3m");
                 LastSeenPosition.position = Player.transform.position;
                 target = LastSeenPosition;
                 return true;
@@ -251,8 +255,9 @@ public class LadyController : MonoBehaviour
 
     void OnAnimatorIK()
     {
-        anim.SetLookAtPosition(target.position);
-        anim.SetLookAtWeight(1, .5f, 1);
+        anim.SetLookAtWeight(GeneralIKWeight, BodyIKWeight, HeadIKWeight);
+        anim.SetLookAtPosition(target.position + adjustNPCLookHeight);
+        
     }
 }
 
