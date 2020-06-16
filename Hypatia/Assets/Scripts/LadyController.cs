@@ -54,7 +54,7 @@ public class LadyController : MonoBehaviour
 
     private void Update()
     {
-        CheckIfPlayerVisible();
+        FoundPlayer = CheckIfPlayerVisible();
         switch (NPCState)
         {
             case NPCStateMachine.Patrol:
@@ -78,14 +78,14 @@ public class LadyController : MonoBehaviour
             case NPCStateMachine.Chase:
                 HeadToTarget(target);
 
-                if (Vector3.Distance(transform.position, Player.transform.position) <= navMeshAgent.stoppingDistance + .5f && FoundPlayer)
+                if (Vector3.Distance(transform.position, Player.transform.position) <= navMeshAgent.stoppingDistance + .7f && FoundPlayer)
                 {
                     NPCState = NPCStateMachine.Attack;
                 }
 
-                if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance && !FoundPlayer)
+                if (!FoundPlayer && navMeshAgent.remainingDistance > navMeshAgent.stoppingDistance)
                 {
-                    NPCState = NPCStateMachine.Investigate;
+                    NPCState = NPCStateMachine.CheckLastLocation;
                 }
                 break;
 
@@ -94,8 +94,19 @@ public class LadyController : MonoBehaviour
                     StartCoroutine(Attack());
                 break;
 
-            case NPCStateMachine.Investigate:
+            case NPCStateMachine.CheckLastLocation:
+                HeadToTarget(target);
+                if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance && !FoundPlayer)
+                {
+                    NPCState = NPCStateMachine.Investigate;
+                }
+                if (FoundPlayer)
+                {
+                    NPCState = NPCStateMachine.Chase;
+                }
+                break;
 
+            case NPCStateMachine.Investigate:
                 if (!investigating)
                 {
                     StartCoroutine("Investigate");
@@ -103,16 +114,16 @@ public class LadyController : MonoBehaviour
 
                 if (FoundPlayer)
                 {
-                    StopCoroutine("Investigate");
                     investigating = false;
                     anim.SetBool("investigate", investigating);
+                    StopCoroutine("Investigate");
                     NPCState = NPCStateMachine.Chase;
                 }
                 break;
 
             case NPCStateMachine.GoBackToPatrol:
-                    FindClosestWaypoint(currentWaypoints);
-                    NPCState = NPCStateMachine.Patrol;
+                FindClosestWaypoint(currentWaypoints);
+                NPCState = NPCStateMachine.Patrol;
                 break;
 
             default:
@@ -125,7 +136,7 @@ public class LadyController : MonoBehaviour
     IEnumerator Attack()
     {
         attacking = true;
-            yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1f);
         NPCState = NPCStateMachine.Chase;
         attacking = false;
     }
@@ -138,34 +149,35 @@ public class LadyController : MonoBehaviour
         NPCState = NPCStateMachine.GoBackToPatrol;
         investigating = false;
     }
-    
 
-    public void CheckIfPlayerVisible()
+
+    bool CheckIfPlayerVisible()
     {
         float distanceFromPlayer = Vector3.Distance(Head.position, Player.transform.position);
         if (distanceFromPlayer < SpotPlayerDistance)
         {
             Vector3 PlayerDirection = (Player.transform.position - Head.position).normalized;
             float playerNPCAngle = Vector3.Angle(PlayerDirection, Head.forward);
+
             if (playerNPCAngle < SpotPlayerAngle / 2f)
             {
                 if (!Physics.Linecast(Head.position, Player.transform.position, layerMask))
                 {
+                    Debug.Log("Player is in Cone of Vision");
                     LastSeenPosition.position = Player.transform.position;
                     target = LastSeenPosition;
-                    FoundPlayer = true;
+                    return true;
                 }
             }
-            if (!Physics.Linecast(Head.position, Player.transform.position, layerMask) && distanceFromPlayer<3f)
+            if (!Physics.Linecast(Head.position, Player.transform.position, layerMask) && distanceFromPlayer < 3f)
             {
+                Debug.Log("Player is closer than 3m");
                 LastSeenPosition.position = Player.transform.position;
                 target = LastSeenPosition;
-                FoundPlayer = true;
+                return true;
             }
         }
-        else
-            FoundPlayer = false;
-
+        return false;
     }
 
     void FindClosestWaypoint(Transform[] waypoints)
@@ -175,7 +187,7 @@ public class LadyController : MonoBehaviour
         for (int i = 0; i < waypoints.Length; i++)
         {
             float tempDistance = Vector3.Distance(waypoints[i].position, transform.position);
-            if(tempDistance < closestDistance)
+            if (tempDistance < closestDistance)
             {
                 closestWaypoint = i;
                 closestDistance = tempDistance;
@@ -215,12 +227,8 @@ public class LadyController : MonoBehaviour
         anim.SetFloat("xvel", velocity.x);
         anim.SetFloat("yvel", velocity.y);
 
-        /*// Pull character towards agent
-		if (worldDeltaPosition.magnitude > navMeshAgent.radius)
-		transform.position = navMeshAgent.nextPosition - 0.9f*worldDeltaPosition;*/
-
         if (worldDeltaPosition.magnitude > navMeshAgent.radius)
-        navMeshAgent.nextPosition = transform.position + 0.9f*worldDeltaPosition;
+            navMeshAgent.nextPosition = transform.position + 0.9f * worldDeltaPosition;
     }
 
     void OnAnimatorMove()
@@ -240,12 +248,19 @@ public class LadyController : MonoBehaviour
             Gizmos.DrawLine(transform.position, target.position);
         }
     }
+
+    void OnAnimatorIK()
+    {
+        anim.SetLookAtPosition(target.position);
+        anim.SetLookAtWeight(1, .5f, 1);
+    }
 }
 
 public enum NPCStateMachine{
     Patrol,
     Chase,
     Attack,
+    CheckLastLocation,
     Investigate,
     GoBackToPatrol
 }
