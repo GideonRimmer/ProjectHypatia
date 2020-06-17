@@ -37,7 +37,7 @@ public class MouseLook : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
         PlayerBody.Rotate(Vector3.up * mouseX);
-        //GetKey();
+        GetKey();
     }
     void GetKey()
     {
@@ -45,26 +45,26 @@ public class MouseLook : MonoBehaviour
         {
             Vector3 KeyDirection = (Key[i].transform.position - transform.position).normalized;
             float playerKeyAngle = Vector3.Angle(KeyDirection, transform.forward);
-            if (Vector3.Distance(Key[i].transform.position, transform.position) < 2 && playerKeyAngle < 20 && !hasKey)
-            {
-                Debug.Log("Key number " + i + " visible");
-
-                if (Input.GetKeyDown(KeyCode.F))
+            if (Key[i].activeInHierarchy) {
+                if (Vector3.Distance(Key[i].transform.position, transform.position) < 2 && playerKeyAngle < 20 && !hasKey)
                 {
-                    Key[i].Destroy();
-                    Key.RemoveAt(i);
-                    i--;
-                    hasKey = true;
-                    KeyImage.SetActive(true);
-                    crosshair.SetActive(false);
-                    QuestText.text = open;
+                    Debug.Log("Key number " + i + " visible");
+
+                    if (Input.GetKeyDown(KeyCode.F))
+                    {
+                        Key[i].SetActive(false);
+                        hasKey = true;
+                        KeyImage.SetActive(true);
+                        crosshair.SetActive(false);
+                        QuestText.text = open;
+                    }
+                    crosshair.SetActive(true);
+                    break;
                 }
-                crosshair.SetActive(true);
-                break;
-            }
-            else
-            {
-                crosshair.SetActive(false);
+                else
+                {
+                    crosshair.SetActive(false);
+                }
             }
         }
     }

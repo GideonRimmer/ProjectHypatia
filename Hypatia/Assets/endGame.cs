@@ -5,29 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class endGame : MonoBehaviour
 {
-    bool runOnce = false;
-    bool gameEnded = false;
+    public bool runOnce = false;
     public CanvasGroup endGameGroup;
+    float canvasAlpha = 0;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.name == "CharacterController" && !runOnce)
         {
-            gameEnded = true;
-            Mathf.Clamp(endGameGroup.alpha += Time.deltaTime, 0, 1);
-            if (endGameGroup.alpha >= .99f)
-            {
-                runOnce = true;
-            }
-
+            runOnce = true;
         }
     }
 
     private void Update()
     {
-        if (gameEnded && Input.GetKeyDown(KeyCode.R))
+        if (runOnce)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            canvasAlpha += Time.deltaTime;
+            Mathf.Clamp(canvasAlpha, 0, 1);
+            endGameGroup.alpha = canvasAlpha;
+            if (Input.GetKeyDown(KeyCode.R))
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
