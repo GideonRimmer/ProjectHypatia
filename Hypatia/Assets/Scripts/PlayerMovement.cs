@@ -5,8 +5,13 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
-    public float characterSpeed;
-    public float JumpHeight = 3f;
+    float characterSpeed;
+    float characterWalk = 3f;
+    float characterCrouch = 1.7f;
+    public float characterHeight;
+    public float cameraHeight = 1;
+    public bool isCrouching = false;
+    Camera mainCamera;
     float gravity = -9.81f;
     Vector3 velocity;
     public Transform GroundCheck;
@@ -18,6 +23,9 @@ public class PlayerMovement : MonoBehaviour
     {
         Cursor.visible = false;
         controller = GetComponent<CharacterController>();
+        mainCamera = Camera.main;
+        characterHeight = controller.height;
+        characterSpeed = characterWalk;
     }
     private void Update()
     {
@@ -26,20 +34,33 @@ public class PlayerMovement : MonoBehaviour
         {
             velocity.y = -2f;
         }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            isCrouching = !isCrouching;
+            if (isCrouching)
+            {
+                characterSpeed = characterCrouch;
+                controller.height = 1.3f;
+                mainCamera.transform.localPosition = new Vector3(0,0.5f,0);
+            }
+            if (!isCrouching)
+            {
+                characterSpeed = characterWalk;
+                controller.height = characterHeight;
+                mainCamera.transform.localPosition = new Vector3(0, 1, 0);
+            }
+
+        }
+
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * characterSpeed * Time.deltaTime);
 
-        if(Input.GetButtonDown("Jump") && isGrounded)
-        {
-            velocity.y = Mathf.Sqrt(JumpHeight * -2f * gravity);
-        }
-
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
         
     }
-
 }

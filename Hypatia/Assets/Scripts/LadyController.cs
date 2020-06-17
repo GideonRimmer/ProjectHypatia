@@ -1,10 +1,7 @@
-﻿using Gamekit3D;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel.Design;
-using UnityEditorInternal;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class LadyController : MonoBehaviour
 {
@@ -20,9 +17,8 @@ public class LadyController : MonoBehaviour
     float HeadIKWeight = .6f;
     
     public GameObject Player;
+    PlayerMovement playerMovement;
     public NPCStateMachine NPCState;
-    public float attackDistance = 1f;
-    public float attackTimeout = 1f;
     public float SpotPlayerDistance = 8f;
     public float SpotPlayerAngle = 90f;
     public float InvestigationTime = 6f;
@@ -30,8 +26,20 @@ public class LadyController : MonoBehaviour
     public Transform Head;
     public bool attacking = false;
     public bool investigating = false;
+    public SphereCollider punchHand;
+    bool hit = false;
 
     public bool FoundPlayer = false;
+    public bool playerDead = false;
+
+    float playerVisibleTimer;
+    float timeToSpotPlayer = 1.5f;
+    float timeToSpotCrouch = 7f;
+    float timeToSpotWalk = 1.5f;
+    public Slider spottedSlider;
+    public CanvasGroup spottedCanvasGroup;
+
+    public CanvasGroup StealthStateCanvasGroup;
 
     Animator anim;
     Vector2 smoothDeltaPosition = Vector2.zero;
@@ -41,6 +49,7 @@ public class LadyController : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        playerMovement = Player.GetComponent<PlayerMovement>();
         currentWaypoints = new Transform[CurrentPatrolPath.childCount];
 
         if (currentWaypoints.Length != 0)
@@ -58,7 +67,17 @@ public class LadyController : MonoBehaviour
 
     private void Update()
     {
-        FoundPlayer = CheckIfPlayerVisible();
+        if (Health.health > 0)
+        {
+            FoundPlayer = lookedLongEnough();
+        }
+        else if(Health.health<=0 && !playerDead)
+        {
+            FoundPlayer = false;
+            NPCState = NPCStateMachine.GoBackToPatrol;
+            playerDead = true;
+        }
+        StealthStateController();
         switch (NPCState)
         {
             case NPCStateMachine.Patrol:
@@ -82,20 +101,15 @@ public class LadyController : MonoBehaviour
             case NPCStateMachine.Chase:
                 HeadToTarget(target);
 
-                if (Vector3.Distance(transform.position, Player.transform.position) <= navMeshAgent.stoppingDistance + .7f && FoundPlayer)
+                if (Vector3.Distance(transform.position, Player.transform.position) <= navMeshAgent.stoppingDistance + 1f && FoundPlayer && !attacking)
                 {
-                    NPCState = NPCStateMachine.Attack;
+                        StartCoroutine(Attack());
                 }
 
                 if (!FoundPlayer && navMeshAgent.remainingDistance > navMeshAgent.stoppingDistance)
                 {
                     NPCState = NPCStateMachine.CheckLastLocation;
                 }
-                break;
-
-            case NPCStateMachine.Attack:
-                if (attacking == false)
-                    StartCoroutine(Attack());
                 break;
 
             case NPCStateMachine.CheckLastLocation:
@@ -139,12 +153,99 @@ public class LadyController : MonoBehaviour
         trackPositionAndVelocity();
     }
 
+    void StealthStateController()
+    {
+        if(!FoundPlayer)
+        {
+            Mathf.Clamp(StealthStateCanvasGroup.alpha -= Time.deltaTime, 0, 1);
+        }
+        else if (FoundPlayer)
+        {
+            StealthStateCanvasGroup.alpha = Mathf.PingPong(Time.time,1);
+
+        }
+    }
+
+    void adjustSpotedTime()
+    {
+        if (playerMovement.isCrouching)
+        {
+            timeToSpotPlayer = timeToSpotCrouch;
+        }
+        else
+            timeToSpotPlayer = timeToSpotWalk;
+
+        float scaledValue = Mathf.Clamp(playerVisibleTimer / timeToSpotPlayer, 0, 1);
+
+        spottedSlider.value = scaledValue;
+        spottedCanvasGroup.alpha = scaledValue;
+        if (scaledValue >= 1)
+        {
+            spottedCanvasGroup.alpha = 0; 
+        }
+    }
+
+    bool lookedLongEnough()
+    {
+        if(NPCState== NPCStateMachine.Patrol)
+        {
+            if (CheckIfPlayerVisible())
+            {
+                playerVisibleTimer += Time.deltaTime;
+            }
+            else
+            {
+                playerVisibleTimer -= Time.deltaTime;
+            }
+            playerVisibleTimer = Mathf.Clamp(playerVisibleTimer, 0, timeToSpotPlayer);
+            adjustSpotedTime();
+            if (playerVisibleTimer >= timeToSpotPlayer)
+            {
+                LastSeenPosition.position = Player.transform.position;
+                target = LastSeenPosition;
+                return true;
+            }
+            return false;
+        }
+        else if(CheckIfPlayerVisible())
+        {
+            LastSeenPosition.position = Player.transform.position;
+            target = LastSeenPosition;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+
     IEnumerator Attack()
     {
         attacking = true;
-        yield return new WaitForSeconds(1f);
-        NPCState = NPCStateMachine.Chase;
+        float duration = Time.time + 1.1f;
+        while (Time.time < duration && !hit)
+        {
+            Collider[] colliders = Physics.OverlapSphere(punchHand.transform.position, punchHand.radius, 1<<9, QueryTriggerInteraction.Ignore);
+            if (colliders.Length > 0)
+            {
+                hit = true;
+                Health.health--;
+            }
+            yield return null;
+        }
+        if(Time.time < duration)
+        {
+            float newWaitTime = duration - Time.time;
+            yield return new WaitForSeconds(newWaitTime);
+        }
+        hit = false;
         attacking = false;
+    }
+
+    public void LadyPunch()
+    {
+        //Debug.Log("Punch Sound");
     }
 
     IEnumerator Investigate()
@@ -169,15 +270,11 @@ public class LadyController : MonoBehaviour
             {
                 if (!Physics.Linecast(Head.position, Player.transform.position, layerMask))
                 {
-                    LastSeenPosition.position = Player.transform.position;
-                    target = LastSeenPosition;
                     return true;
                 }
             }
-            if (!Physics.Linecast(Head.position, Player.transform.position, layerMask) && distanceFromPlayer < 3f)
+            if (!Physics.Linecast(Head.position, Player.transform.position, layerMask) && distanceFromPlayer < 2f)
             {
-                LastSeenPosition.position = Player.transform.position;
-                target = LastSeenPosition;
                 return true;
             }
         }
@@ -264,7 +361,6 @@ public class LadyController : MonoBehaviour
 public enum NPCStateMachine{
     Patrol,
     Chase,
-    Attack,
     CheckLastLocation,
     Investigate,
     GoBackToPatrol
