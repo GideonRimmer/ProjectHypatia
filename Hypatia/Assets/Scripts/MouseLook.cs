@@ -15,6 +15,9 @@ public class MouseLook : MonoBehaviour
     public GameObject crosshair;
     public bool hasKey = false;
     public GameObject KeyImage;
+    public Text QuestText;
+    string steal = "Steal a gate Key from the next patrol";
+    string open = "Open the gate";
 
     // Start is called before the first frame update
     void Start()
@@ -34,33 +37,34 @@ public class MouseLook : MonoBehaviour
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
         PlayerBody.Rotate(Vector3.up * mouseX);
-        GetKey();
+        //GetKey();
     }
     void GetKey()
     {
-        if (Key.Count > 0) {
-            for (int i = 0; i < Key.Count; i++)
+        for (int i = 0; i < Key.Count; i++)
+        {
+            Vector3 KeyDirection = (Key[i].transform.position - transform.position).normalized;
+            float playerKeyAngle = Vector3.Angle(KeyDirection, transform.forward);
+            if (Vector3.Distance(Key[i].transform.position, transform.position) < 2 && playerKeyAngle < 20 && !hasKey)
             {
-                Vector3 KeyDirection = (Key[i].transform.position - transform.position).normalized;
-                float playerKeyAngle = Vector3.Angle(KeyDirection, transform.forward);
-                if (Vector3.Distance(Key[i].transform.position, transform.position) < 2 && playerKeyAngle < 20 && !hasKey)
+                Debug.Log("Key number " + i + " visible");
+
+                if (Input.GetKeyDown(KeyCode.F))
                 {
-                    Debug.Log("Key number " + i + " visible");
-                    crosshair.SetActive(true);
-                    if (Input.GetKeyDown(KeyCode.F))
-                    {
-                        Key[i].Destroy();
-                        Key.RemoveAt(i);
-                        i--;
-                        hasKey = true;
-                        KeyImage.SetActive(true);
-                        crosshair.SetActive(false);
-                    }
-                }
-                else
-                {
+                    Key[i].Destroy();
+                    Key.RemoveAt(i);
+                    i--;
+                    hasKey = true;
+                    KeyImage.SetActive(true);
                     crosshair.SetActive(false);
+                    QuestText.text = open;
                 }
+                crosshair.SetActive(true);
+                break;
+            }
+            else
+            {
+                crosshair.SetActive(false);
             }
         }
     }
