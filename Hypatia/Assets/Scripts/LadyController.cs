@@ -39,8 +39,6 @@ public class LadyController : MonoBehaviour
     public Slider spottedSlider;
     public CanvasGroup spottedCanvasGroup;
 
-    public CanvasGroup StealthStateCanvasGroup;
-
     Animator anim;
     Vector2 smoothDeltaPosition = Vector2.zero;
     Vector2 velocity = Vector2.zero;
@@ -77,7 +75,7 @@ public class LadyController : MonoBehaviour
             NPCState = NPCStateMachine.GoBackToPatrol;
             playerDead = true;
         }
-        StealthStateController();
+        
         switch (NPCState)
         {
             case NPCStateMachine.Patrol:
@@ -151,19 +149,6 @@ public class LadyController : MonoBehaviour
         }
 
         trackPositionAndVelocity();
-    }
-
-    void StealthStateController()
-    {
-        if(!FoundPlayer)
-        {
-            Mathf.Clamp(StealthStateCanvasGroup.alpha -= Time.deltaTime, 0, 1);
-        }
-        else if (FoundPlayer)
-        {
-            StealthStateCanvasGroup.alpha = Mathf.PingPong(Time.time,1);
-
-        }
     }
 
     void adjustSpotedTime()
@@ -266,16 +251,16 @@ public class LadyController : MonoBehaviour
             Vector3 PlayerDirection = (Player.transform.position - Head.position).normalized;
             float playerNPCAngle = Vector3.Angle(PlayerDirection, Head.forward);
 
+             if (!Physics.Linecast(Head.position, Player.transform.position, layerMask) && distanceFromPlayer < 2.5f)
+            {
+                return true;
+            }
             if (playerNPCAngle < SpotPlayerAngle / 2f)
             {
                 if (!Physics.Linecast(Head.position, Player.transform.position, layerMask))
                 {
                     return true;
                 }
-            }
-            if (!Physics.Linecast(Head.position, Player.transform.position, layerMask) && distanceFromPlayer < 2f)
-            {
-                return true;
             }
         }
         return false;

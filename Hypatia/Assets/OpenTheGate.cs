@@ -14,7 +14,7 @@ public class OpenTheGate : MonoBehaviour
     public AudioSource GateSound;
     bool runOnce = false;
     public Text QuestText;
-    bool endGameGate = false;
+    public bool endGameGate = false;
     string steal = "Steal a gate Key from the next patrol";
     string exit = "Exit the City";
 

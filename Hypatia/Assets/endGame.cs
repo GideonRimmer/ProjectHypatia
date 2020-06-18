@@ -25,6 +25,7 @@ public class endGame : MonoBehaviour
             Mathf.Clamp(canvasAlpha, 0, 1);
             endGameGroup.alpha = canvasAlpha;
             if (Input.GetKeyDown(KeyCode.R))
+                Health.health = 5;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }

@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class MouseLook : MonoBehaviour
 {
-
     public float sensitivity = 1f;
     public Transform PlayerBody;
     float xRotation = 0f;
@@ -18,6 +17,8 @@ public class MouseLook : MonoBehaviour
     public Text QuestText;
     string steal = "Steal a gate Key from the next patrol";
     string open = "Open the gate";
+    public LadyController[] ladyControllers;
+    public CanvasGroup StealthStateCanvasGroup;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,7 @@ public class MouseLook : MonoBehaviour
 
         PlayerBody.Rotate(Vector3.up * mouseX);
         GetKey();
+        StealthStateController();
     }
     void GetKey()
     {
@@ -61,11 +63,29 @@ public class MouseLook : MonoBehaviour
                     crosshair.SetActive(true);
                     break;
                 }
-                else
-                {
-                    crosshair.SetActive(false);
-                }
             }
+            else
+            {
+                crosshair.SetActive(false);
+            }
+        }
+    }
+
+    void StealthStateController()
+    {
+        int spottedCount = 0;
+        foreach (LadyController lc in ladyControllers)
+        {
+            if (lc.FoundPlayer == true)
+                spottedCount++;
+        }
+        if (spottedCount<=0)
+        {
+            Mathf.Clamp(StealthStateCanvasGroup.alpha -= Time.deltaTime, 0, 1);
+        }
+        if (spottedCount>0)
+        {
+            StealthStateCanvasGroup.alpha = Mathf.PingPong(Time.time, 1);
         }
     }
 }
